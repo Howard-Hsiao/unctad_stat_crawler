@@ -1,0 +1,599 @@
+{
+    "method": "POST",
+    "url": "https://unctadstat.unctad.org/wds/TableViewer/getItems.aspx?row=0&rowCount=1000&id=Dim1",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+        {
+            "name": "Host",
+            "value": "unctadstat.unctad.org"
+        },
+        {
+            "name": "Connection",
+            "value": "keep-alive"
+        },
+        {
+            "name": "Accept-Language",
+            "value": "en"
+        },
+        {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36"
+        },
+        {
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded"
+        },
+        {
+            "name": "Accept",
+            "value": "*/*"
+        },
+        {
+            "name": "Origin",
+            "value": "https://unctadstat.unctad.org"
+        },
+        {
+            "name": "Sec-Fetch-Site",
+            "value": "same-origin"
+        },
+        {
+            "name": "Sec-Fetch-Mode",
+            "value": "cors"
+        },
+        {
+            "name": "Sec-Fetch-Dest",
+            "value": "empty"
+        },
+        {
+            "name": "Referer",
+            "value": "https://unctadstat.unctad.org/wds/TableViewer/dimView.aspx"
+        },
+        {
+            "name": "Accept-Encoding",
+            "value": "gzip, deflate, br"
+        }
+    ],
+    "queryString": [
+        {
+            "name": "row",
+            "value": "0"
+        },
+        {
+            "name": "rowCount",
+            "value": "1000"
+        },
+        {
+            "name": "id",
+            "value": "Dim1"
+        }
+        ],
+    "postData": {
+        "mimeType": "application/x-www-form-urlencoded",
+        "text": "WD_DisplayedItemsCount=2889&WD_ItemSelPostbackUrl=dimView.aspx&WD_ItemSelRowsColsControlId=TableSize&WD_ItemSelShowCode=False&WD_ItemStateId=Dim1&WD_AddSelItemsVarName=WD_AddSelItems_Dim1&WD_RemoveSelItemsVarName=WD_RemSelItems_Dim1&WD_SelItemsVarName=WD_SelItems_Dim1&WD_ExpItemsVarName=WD_ExpItems_Dim1&WD_ItemFilterVarName=WD_ItemFilter_Dim1&WD_ItemFilterPVarName=WD_ItemFilterP_Dim1&WD_ItemFirstRowVarName=WD_ItemFirstRow_Dim1&WD_ItemScrollVarName=WD_ItemVPos_Dim1&PR_ProfileNameHidden=&sWD_ReportId=182117&sWD_TableId=1495&sWD_ReportView=<ReportView><RowDims><Dim name="ECONOMY"><Groups activeGroup="e612da50-1b0a-4a2e-ab06-7431c214e37a"><Group id="e612da50-1b0a-4a2e-ab06-7431c214e37a" type="Selection"><Definition><Items type="handles"><String value="0,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,219"/></Items></Definition><ActiveItem pos="1" /></Group></Groups></Dim></RowDims><ColDims><Dim name="YEAR"><Groups activeGroup="0e0da7b2-0d35-400d-ab5a-b4f842cf34c2"><Group id="0e0da7b2-0d35-400d-ab5a-b4f842cf34c2" type="Selection"><Definition><All/></Definition><ActiveItem pos="0" /></Group></Groups></Dim></ColDims><OtherDims><Dim name="PRODUCT"><Groups activeGroup="8b289558-d1fc-4c95-9280-5743a29e49f5"><Group id="8b289558-d1fc-4c95-9280-5743a29e49f5" type="Selection"><Definition><All/></Definition><ActiveItem pos="0" /></Group></Groups></Dim><Dim name="PARTNER"><Groups activeGroup="1509a964-c115-4299-868d-eee701fabaca"><Group id="1509a964-c115-4299-868d-eee701fabaca" type="Selection"><Definition><Items type="handles"><String value="0,238,239,240,241,242,243,244,245,246,247,248,249,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,48,46,111"/></Items></Definition><ActiveItem pos="1" /></Group></Groups></Dim></OtherDims><Chart type="" rows="-1" cols="-1" labels="False" /></ReportView>&sWD_MaxDim=4&sWD_ActiveDim=1&sWD_ActiveMember=1&sWD_SelectedItemsCount=156,158,123,24&sWD_CurrentDimSelectedCount=158&sWD_CurrentDimHasTotal=False&WD_GroupsModified=False&oWD_DimActiveItemId=1,1,0,0&WD_SearchLabel=&WD_SearchLang=&WD_ExpItems_Dim0=<Items type="handles"><String value="0,225,237,238,239,240,241,242,243,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,272,273,277,278,279,280,281,282,287,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,323,324,325,326,327,328,329,330,334,335,336,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,359,371,377,378,379,380,381"/></Items>&WD_ItemFilter_Dim0=text&WD_ItemFilterP_Dim00=viet&WD_ItemFilterP_Dim01=2&WD_ItemFirstRow_Dim0=0&WD_ItemVPos_Dim0=0&WD_ExpItems_Dim1=<Items type="handles"><String value="0,238,252,253,254,255,256,257,258,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,287,288,292,293,294,295,296,297,302,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,338,339,340,341,342,343,344,345,349,350,351,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,374,386,392,393,394,395,396"/></Items>&WD_ItemFirstRow_Dim1=0&WD_ItemVPos_Dim1=0&WD_ExpItems_Dim2=<Items type="handles"><String value="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,25,26,27,28,29,30,31,32,33,34,35,36,37,38,49,52,62,67,71,81,91,101,110,113,114,115,116,117,118,119,120,121,122,123"/></Items>&WD_ItemFirstRow_Dim2=0&WD_ItemVPos_Dim2=0&WD_ExpItems_Dim3=<All/>&WD_ItemFirstRow_Dim3=0&WD_ItemVPos_Dim3=0&WD_ActiveGroup=&sWD_RowsItemsCount=156&sWD_ColsItemsCount=24&sWD_Cols=3&sWD_Rows=0&sWD_Others=2,1&sWD_LastViewer=T182117&sWD_FirstRow=0&sWD_ChunkFirstRow=&sWD_FirstDisplayRow=0&sWD_FirstCol=0&sWD_ChunkFirstCol=&sWD_FirstDisplayCol=0&sWD_FirstItem=0&IF_ReportType=6&sWD_PosX=0&sWD_PosY=0&sWD_TotalPercent=0&sWD_VPos=0&WD_Printable=0&sWD_SourceInfo=&sWD_MaxProfileItems=700&sWD_DataFirstRow=1&sWD_DataFirstCol=1&sWD_RowsPerPage=20&sWD_ColumnsPerPage=20&sWD_Permit=-1&sWD_ReportFolder=15914&sWD_Ev=0&sWD_Referrer=&sWD_PrintOrientation=1&sWD_PrintPaperSize=4&sWD_PrintFontSize=1&sWD_PrintColour=1&sWD_PrintMargins=0.50,0.50,0.50,0.50&sRF_SortField=&sRF_SortAscending=False&sRF_ActivePath=P,15912,15914&sRF_Mode=&sRF_User=&sRF_Expanded=,P,15912,15914,&sRF_Task=0&sRF_PosX=0&sRF_PosY=0&sRF_ViewTop=0&sRF_ShowFolders=1&sRF_PanePosition=300&sRF_SearchStringBuf=&sRF_SearchRangeBuf=&sRF_SearchTypeBuf=&sRF_SearchExactWordBuf=True&sRF_SearchProperties=&sRF_ScopedSearching=False&sRF_InManageReportsMode=False&sRF_SearchFromMap=False&sRF_SearchPerform=False&sRF_SearchReportIDs=&sRF_SearchFolder=0&sRF_PreviousTask=&sRF_ScrollPosition=&sRF_SameTitle=True&sRF_IncludePA=False&sCS_referer=&sCS_ChosenLang=en&sCS_AppPath=/wds&sCS_SpawnWindow=True&CS_InHelp=False&CS_SaveMode=True&CS_langSwitch=&CS_TargetPage=&CS_demoIndex=0&CS_HelpPage=&CS_FramesInHelp=True&CS_Printable=False&CS_TableauHeight=545&CS_TableauWidth=911&CS_ActiveXEnabled=false&CS_ReportTitle=Merchandise trade matrix – product groups, exports in thousands of United States dollars, annual&CS_NextPage=/wds/TableViewer/dimView.aspx&sCS_DownloadLimit=100000&CS_IVTReportIsOpened=True&CS_bIVTReportHasMapTab=False&LG_targetpage=&LG_reprompt=&PR_ActiveProfileList=&PR_NextPage=&PR_TableLang=eng&PR_TableDefaultLang=eng&PR_Mode=0",
+        "params": [
+            {
+            "name": "WD_DisplayedItemsCount",
+            "value": "2889"
+            },
+            {
+            "name": "WD_ItemSelPostbackUrl",
+            "value": "dimView.aspx"
+            },
+            {
+            "name": "WD_ItemSelRowsColsControlId",
+            "value": "TableSize"
+            },
+            {
+            "name": "WD_ItemSelShowCode",
+            "value": "False"
+            },
+            {
+            "name": "WD_ItemStateId",
+            "value": "Dim1"
+            },
+            {
+            "name": "WD_AddSelItemsVarName",
+            "value": "WD_AddSelItems_Dim1"
+            },
+            {
+            "name": "WD_RemoveSelItemsVarName",
+            "value": "WD_RemSelItems_Dim1"
+            },
+            {
+            "name": "WD_SelItemsVarName",
+            "value": "WD_SelItems_Dim1"
+            },
+            {
+            "name": "WD_ExpItemsVarName",
+            "value": "WD_ExpItems_Dim1"
+            },
+            {
+            "name": "WD_ItemFilterVarName",
+            "value": "WD_ItemFilter_Dim1"
+            },
+            {
+            "name": "WD_ItemFilterPVarName",
+            "value": "WD_ItemFilterP_Dim1"
+            },
+            {
+            "name": "WD_ItemFirstRowVarName",
+            "value": "WD_ItemFirstRow_Dim1"
+            },
+            {
+            "name": "WD_ItemScrollVarName",
+            "value": "WD_ItemVPos_Dim1"
+            },
+            {
+            "name": "PR_ProfileNameHidden",
+            "value": ""
+            },
+            {
+            "name": "sWD_ReportId",
+            "value": "182117"
+            },
+            {
+            "name": "sWD_TableId",
+            "value": "1495"
+            },
+            {
+            "name": "sWD_ReportView",
+            "value": "<ReportView><RowDims><Dim name="ECONOMY"><Groups activeGroup="e612da50-1b0a-4a2e-ab06-7431c214e37a"><Group id="e612da50-1b0a-4a2e-ab06-7431c214e37a" type="Selection"><Definition><Items type="handles"><String value="0,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,219"/></Items></Definition><ActiveItem pos="1" /></Group></Groups></Dim></RowDims><ColDims><Dim name="YEAR"><Groups activeGroup="0e0da7b2-0d35-400d-ab5a-b4f842cf34c2"><Group id="0e0da7b2-0d35-400d-ab5a-b4f842cf34c2" type="Selection"><Definition><All/></Definition><ActiveItem pos="0" /></Group></Groups></Dim></ColDims><OtherDims><Dim name="PRODUCT"><Groups activeGroup="8b289558-d1fc-4c95-9280-5743a29e49f5"><Group id="8b289558-d1fc-4c95-9280-5743a29e49f5" type="Selection"><Definition><All/></Definition><ActiveItem pos="0" /></Group></Groups></Dim><Dim name="PARTNER"><Groups activeGroup="1509a964-c115-4299-868d-eee701fabaca"><Group id="1509a964-c115-4299-868d-eee701fabaca" type="Selection"><Definition><Items type="handles"><String value="0,238,239,240,241,242,243,244,245,246,247,248,249,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,349,350,351,352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392,393,394,395,396,48,46,111"/></Items></Definition><ActiveItem pos="1" /></Group></Groups></Dim></OtherDims><Chart type="" rows="-1" cols="-1" labels="False" /></ReportView>"
+            },
+            {
+            "name": "sWD_MaxDim",
+            "value": "4"
+            },
+            {
+            "name": "sWD_ActiveDim",
+            "value": "1"
+            },
+            {
+            "name": "sWD_ActiveMember",
+            "value": "1"
+            },
+            {
+            "name": "sWD_SelectedItemsCount",
+            "value": "156,158,123,24"
+            },
+            {
+            "name": "sWD_CurrentDimSelectedCount",
+            "value": "158"
+            },
+            {
+            "name": "sWD_CurrentDimHasTotal",
+            "value": "False"
+            },
+            {
+            "name": "WD_GroupsModified",
+            "value": "False"
+            },
+            {
+            "name": "oWD_DimActiveItemId",
+            "value": "1,1,0,0"
+            },
+            {
+            "name": "WD_SearchLabel",
+            "value": ""
+            },
+            {
+            "name": "WD_SearchLang",
+            "value": ""
+            },
+            {
+            "name": "WD_ExpItems_Dim0",
+            "value": "<Items type="handles"><String value="0,225,237,238,239,240,241,242,243,247,248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,272,273,277,278,279,280,281,282,287,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,323,324,325,326,327,328,329,330,334,335,336,338,339,340,341,342,343,344,345,346,347,348,349,350,351,352,359,371,377,378,379,380,381"/></Items>"
+            },
+            {
+            "name": "WD_ItemFilter_Dim0",
+            "value": "text"
+            },
+            {
+            "name": "WD_ItemFilterP_Dim00",
+            "value": "viet"
+            },
+            {
+            "name": "WD_ItemFilterP_Dim01",
+            "value": "2"
+            },
+            {
+            "name": "WD_ItemFirstRow_Dim0",
+            "value": "0"
+            },
+            {
+            "name": "WD_ItemVPos_Dim0",
+            "value": "0"
+            },
+            {
+            "name": "WD_ExpItems_Dim1",
+            "value": "<Items type="handles"><String value="0,238,252,253,254,255,256,257,258,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,287,288,292,293,294,295,296,297,302,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,326,327,328,329,330,331,332,333,334,335,336,338,339,340,341,342,343,344,345,349,350,351,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,374,386,392,393,394,395,396"/></Items>"
+            },
+            {
+            "name": "WD_ItemFirstRow_Dim1",
+            "value": "0"
+            },
+            {
+            "name": "WD_ItemVPos_Dim1",
+            "value": "0"
+            },
+            {
+            "name": "WD_ExpItems_Dim2",
+            "value": "<Items type="handles"><String value="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,25,26,27,28,29,30,31,32,33,34,35,36,37,38,49,52,62,67,71,81,91,101,110,113,114,115,116,117,118,119,120,121,122,123"/></Items>"
+            },
+            {
+            "name": "WD_ItemFirstRow_Dim2",
+            "value": "0"
+            },
+            {
+            "name": "WD_ItemVPos_Dim2",
+            "value": "0"
+            },
+            {
+            "name": "WD_ExpItems_Dim3",
+            "value": "<All/>"
+            },
+            {
+            "name": "WD_ItemFirstRow_Dim3",
+            "value": "0"
+            },
+            {
+            "name": "WD_ItemVPos_Dim3",
+            "value": "0"
+            },
+            {
+            "name": "WD_ActiveGroup",
+            "value": ""
+            },
+            {
+            "name": "sWD_RowsItemsCount",
+            "value": "156"
+            },
+            {
+            "name": "sWD_ColsItemsCount",
+            "value": "24"
+            },
+            {
+            "name": "sWD_Cols",
+            "value": "3"
+            },
+            {
+            "name": "sWD_Rows",
+            "value": "0"
+            },
+            {
+            "name": "sWD_Others",
+            "value": "2,1"
+            },
+            {
+            "name": "sWD_LastViewer",
+            "value": "T182117"
+            },
+            {
+            "name": "sWD_FirstRow",
+            "value": "0"
+            },
+            {
+            "name": "sWD_ChunkFirstRow",
+            "value": ""
+            },
+            {
+            "name": "sWD_FirstDisplayRow",
+            "value": "0"
+            },
+            {
+            "name": "sWD_FirstCol",
+            "value": "0"
+            },
+            {
+            "name": "sWD_ChunkFirstCol",
+            "value": ""
+            },
+            {
+            "name": "sWD_FirstDisplayCol",
+            "value": "0"
+            },
+            {
+            "name": "sWD_FirstItem",
+            "value": "0"
+            },
+            {
+            "name": "IF_ReportType",
+            "value": "6"
+            },
+            {
+            "name": "sWD_PosX",
+            "value": "0"
+            },
+            {
+            "name": "sWD_PosY",
+            "value": "0"
+            },
+            {
+            "name": "sWD_TotalPercent",
+            "value": "0"
+            },
+            {
+            "name": "sWD_VPos",
+            "value": "0"
+            },
+            {
+            "name": "WD_Printable",
+            "value": "0"
+            },
+            {
+            "name": "sWD_SourceInfo",
+            "value": ""
+            },
+            {
+            "name": "sWD_MaxProfileItems",
+            "value": "700"
+            },
+            {
+            "name": "sWD_DataFirstRow",
+            "value": "1"
+            },
+            {
+            "name": "sWD_DataFirstCol",
+            "value": "1"
+            },
+            {
+            "name": "sWD_RowsPerPage",
+            "value": "20"
+            },
+            {
+            "name": "sWD_ColumnsPerPage",
+            "value": "20"
+            },
+            {
+            "name": "sWD_Permit",
+            "value": "-1"
+            },
+            {
+            "name": "sWD_ReportFolder",
+            "value": "15914"
+            },
+            {
+            "name": "sWD_Ev",
+            "value": "0"
+            },
+            {
+            "name": "sWD_Referrer",
+            "value": ""
+            },
+            {
+            "name": "sWD_PrintOrientation",
+            "value": "1"
+            },
+            {
+            "name": "sWD_PrintPaperSize",
+            "value": "4"
+            },
+            {
+            "name": "sWD_PrintFontSize",
+            "value": "1"
+            },
+            {
+            "name": "sWD_PrintColour",
+            "value": "1"
+            },
+            {
+            "name": "sWD_PrintMargins",
+            "value": "0.50,0.50,0.50,0.50"
+            },
+            {
+            "name": "sRF_SortField",
+            "value": ""
+            },
+            {
+            "name": "sRF_SortAscending",
+            "value": "False"
+            },
+            {
+            "name": "sRF_ActivePath",
+            "value": "P,15912,15914"
+            },
+            {
+            "name": "sRF_Mode",
+            "value": ""
+            },
+            {
+            "name": "sRF_User",
+            "value": ""
+            },
+            {
+            "name": "sRF_Expanded",
+            "value": ",P,15912,15914,"
+            },
+            {
+            "name": "sRF_Task",
+            "value": "0"
+            },
+            {
+            "name": "sRF_PosX",
+            "value": "0"
+            },
+            {
+            "name": "sRF_PosY",
+            "value": "0"
+            },
+            {
+            "name": "sRF_ViewTop",
+            "value": "0"
+            },
+            {
+            "name": "sRF_ShowFolders",
+            "value": "1"
+            },
+            {
+            "name": "sRF_PanePosition",
+            "value": "300"
+            },
+            {
+            "name": "sRF_SearchStringBuf",
+            "value": ""
+            },
+            {
+            "name": "sRF_SearchRangeBuf",
+            "value": ""
+            },
+            {
+            "name": "sRF_SearchTypeBuf",
+            "value": ""
+            },
+            {
+            "name": "sRF_SearchExactWordBuf",
+            "value": "True"
+            },
+            {
+            "name": "sRF_SearchProperties",
+            "value": ""
+            },
+            {
+            "name": "sRF_ScopedSearching",
+            "value": "False"
+            },
+            {
+            "name": "sRF_InManageReportsMode",
+            "value": "False"
+            },
+            {
+            "name": "sRF_SearchFromMap",
+            "value": "False"
+            },
+            {
+            "name": "sRF_SearchPerform",
+            "value": "False"
+            },
+            {
+            "name": "sRF_SearchReportIDs",
+            "value": ""
+            },
+            {
+            "name": "sRF_SearchFolder",
+            "value": "0"
+            },
+            {
+            "name": "sRF_PreviousTask",
+            "value": ""
+            },
+            {
+            "name": "sRF_ScrollPosition",
+            "value": ""
+            },
+            {
+            "name": "sRF_SameTitle",
+            "value": "True"
+            },
+            {
+            "name": "sRF_IncludePA",
+            "value": "False"
+            },
+            {
+            "name": "sCS_referer",
+            "value": ""
+            },
+            {
+            "name": "sCS_ChosenLang",
+            "value": "en"
+            },
+            {
+            "name": "sCS_AppPath",
+            "value": "/wds"
+            },
+            {
+            "name": "sCS_SpawnWindow",
+            "value": "True"
+            },
+            {
+            "name": "CS_InHelp",
+            "value": "False"
+            },
+            {
+            "name": "CS_SaveMode",
+            "value": "True"
+            },
+            {
+            "name": "CS_langSwitch",
+            "value": ""
+            },
+            {
+            "name": "CS_TargetPage",
+            "value": ""
+            },
+            {
+            "name": "CS_demoIndex",
+            "value": "0"
+            },
+            {
+            "name": "CS_HelpPage",
+            "value": ""
+            },
+            {
+            "name": "CS_FramesInHelp",
+            "value": "True"
+            },
+            {
+            "name": "CS_Printable",
+            "value": "False"
+            },
+            {
+            "name": "CS_TableauHeight",
+            "value": "545"
+            },
+            {
+            "name": "CS_TableauWidth",
+            "value": "911"
+            },
+            {
+            "name": "CS_ActiveXEnabled",
+            "value": "false"
+            },
+            {
+            "name": "CS_ReportTitle",
+            "value": "Merchandise trade matrix – product groups, exports in thousands of United States dollars, annual"
+            },
+            {
+            "name": "CS_NextPage",
+            "value": "/wds/TableViewer/dimView.aspx"
+            },
+            {
+            "name": "sCS_DownloadLimit",
+            "value": "100000"
+            },
+            {
+            "name": "CS_IVTReportIsOpened",
+            "value": "True"
+            },
+            {
+            "name": "CS_bIVTReportHasMapTab",
+            "value": "False"
+            },
+            {
+            "name": "LG_targetpage",
+            "value": ""
+            },
+            {
+            "name": "LG_reprompt",
+            "value": ""
+            },
+            {
+            "name": "PR_ActiveProfileList",
+            "value": ""
+            },
+            {
+            "name": "PR_NextPage",
+            "value": ""
+            },
+            {
+            "name": "PR_TableLang",
+            "value": "eng"
+            },
+            {
+            "name": "PR_TableDefaultLang",
+            "value": "eng"
+            },
+            {
+            "name": "PR_Mode",
+            "value": "0"
+            }
+        ]
+    }
+    }

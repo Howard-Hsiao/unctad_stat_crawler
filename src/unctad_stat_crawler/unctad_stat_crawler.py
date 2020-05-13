@@ -10,7 +10,7 @@ from os.path import split as splitPath
 from os.path import join as joinPath
 from openpyxl import Workbook
 from random import random
-from itemcode_getter import ItemCode_Getter
+from .itemcode_getter import ItemCode_Getter
 
 # Global PARAM ---------------------------------------------------------
 ## supported data

@@ -44,9 +44,11 @@ parser.request_and_save("both", Economy, Product, Partner, output_file_name)
 
 Note: For further function details, go to the [API Introduction](./doc/unctad_stat_crawler.md).
 
-* ### use it like an executable
-1. open the cmd, and move to the "unctad_stat_crawler/" directory
-2. Use the following command
+* ### Use it like an executable
+1. Open the cmd, and move to the "unctad_stat_crawler/" directory
+2. Adjust the code in the file /src/unctad_stat_crawler/unctad_stat_crawler.py.
+   remove the '.' in front of the command "from .itemcode_getter import ItemCode_Getter"
+3. Use the following command
 ```{shell}
 python3 unctad_stat_crawler <proper argument>
 ```

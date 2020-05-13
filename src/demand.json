@@ -1,0 +1,35 @@
+{
+    "Economy": [
+        "viet nam"
+    ],
+    "Product": [
+        "total all products",
+        "Manufactured goods (SITC 5 to 8 less 667 and 68)",
+        "Machinery and transport equipment (SITC 7)",
+        "Electronic excluding parts and components (SITC 751 + 752 + 761 + 762 + 763 + 775)",
+        "Parts and components for electrical and electronic goods (SITC 759 + 764 + 772 +776)",
+        "Other machinery and transport equipment (SITC 7 - (751 + 752 + 761 + 762 + 763 + 775 + 759 + 764 + 772 + 776))",
+        "Other manufactured goods (SITC 6 + 8 less 667 and 68)",
+        "Textile fibres, yarn, fabrics and clothing (SITC 26 + 65 + 84)",
+        "Manufactured goods by degree of manufacturing",
+        "Labour-intensive and resource-intensive manufactures",
+        "Low-skill and technology-intensive manufactures",
+        "Medium-skill and technology-intensive manufactures",
+        "Medium-skill: Electronics (excluding parts and components) (SITC 775)",
+        "Medium-skill: Parts and components for electrical and electronic goods (SITC 772)",
+        "Medium-skill: Other, excluding electronics",
+        "High-skill and technology-intensive manufactures",
+        "High-skill: Electronics (excluding parts and components) (SITC 751 + 752 + 761 + 762 + 763)",
+        "High-skill: Parts and components for electrical and electronic goods (SITC 759 + 764 + 776)",
+        "High-skill: Other, excluding electronics"
+    ],
+    "Partner": [
+        "china",
+        "China, Taiwan Province of",
+        "japan",
+        "Korea, Republic of",
+        "United States of America",
+        "ASEAN (Association of Southeast Asian Nations)",
+        "EU28 (European Union)"
+    ]
+}

@@ -8,7 +8,7 @@ from urllib.parse import quote, unquote
 Item_info = namedtuple("Item_info", ["name", "code"])
 
 ## itemCode info path
-ITEM_CODE_PATH_TEMPLATE = "../config/{}Code.json"
+ITEM_CODE_PATH_TEMPLATE = "./config/{}Code.json"
 def default_itemCode_path(itemName):
     if(itemName.lower() not in SUPPORT_ITEM):
         raise ValueError("[!] This item is not supported. ")
@@ -18,7 +18,7 @@ def default_itemCode_path(itemName):
 SUPPORT_ITEM = ["economy", "product", "partner"]
 
 ## The following path must be this form
-GET_ITEM_TEMPLATE = "../config/get{}.json"
+GET_ITEM_TEMPLATE = "./config/get{}.json"
 def default_get_item_path(itemName):
     if(itemName.lower() not in SUPPORT_ITEM):
         raise ValueError("[!] This item is not supported. ")

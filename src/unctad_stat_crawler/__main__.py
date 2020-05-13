@@ -51,7 +51,6 @@ if(__name__ == "__main__"):
     args = parser.parse_args()
     crawler = UNCTAD_STAT_Crawler()
 
-
     if(not (args.inputType == "path" or args.inputType == "arg")):
         raise ValueError("[!] You shoud give \"inputType\" \"path\" or \"arg\" argument. ")
     else:        

@@ -24,6 +24,10 @@ git clone https://github.com/Howard-Hsiao/unctad_stat_crawler.git
 
 ## How to use
 There are 2 ways to use this crawler, we will discuss them in the following parts.
+
+There exist one chinese video tutorial of this package, if you're interested, enjoy it. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/omNQJ2bURVU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 * ### import it like a package
 
 Use the following command to import the crawler
